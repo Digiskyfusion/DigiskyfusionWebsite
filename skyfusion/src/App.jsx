@@ -7,6 +7,7 @@ import { Routes } from 'react-router-dom'
 import Home from './Components/Home'
 import WholeCircle from './Components/WholeCircle'
 import Ourservices from './Components/Ourservices'
+import Contactus from './Components/Contactus'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
  <Home />
  <WholeCircle />
  {/* <Ourservices /> */}
+ <Contactus />
    
     <Routes>
    
