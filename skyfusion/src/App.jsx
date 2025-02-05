@@ -8,6 +8,8 @@ import Home from './Components/Home'
 import WholeCircle from './Components/WholeCircle'
 import Ourservices from './Components/Ourservices'
 import Contactus from './Components/Contactus'
+import Portfolio from './Components/Portfolio'
+import Footer from './Components/Footer'
 
 function App() {
   
@@ -19,8 +21,10 @@ function App() {
     <Navbar />
  <Home />
  <WholeCircle />
- {/* <Ourservices /> */}
+ <Ourservices />
  <Contactus />
+ <Footer />
+ {/* <Portfolio /> */}
    
     <Routes>
    
