@@ -10,6 +10,7 @@ import  "aos/dist/aos.css";
 import Aos from "aos"
 // import "../App.css"
 
+
 function Home() {
   useEffect(()=>{
       Aos.init({duration:2000})

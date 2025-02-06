@@ -10,6 +10,8 @@ import Ourservices from './Components/Ourservices'
 import Contactus from './Components/Contactus'
 import Portfolio from './Components/Portfolio'
 import Footer from './Components/Footer'
+import Chooseus from './Components/Chooseus'
+import Experience from './Components/Experience'
 
 function App() {
   
@@ -18,13 +20,17 @@ function App() {
     <>
     
    
-    <Navbar />
+    <Navbar /> 
  <Home />
  <WholeCircle />
  <Ourservices />
+ <Chooseus />
+ <Portfolio /> 
  <Contactus />
  <Footer />
- {/* <Portfolio /> */}
+ {/* <Experience /> */}
+   
+ 
    
     <Routes>
    
