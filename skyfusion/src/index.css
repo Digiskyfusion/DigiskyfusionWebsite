@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@keyframes rotateY360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .rotate-y-360 {
+    animation: rotateY360 3s linear infinite; /* Rotates continuously every 3 seconds */
+    transform-style: preserve-3d; /* Ensures smooth 3D rotation */
+  }
+  
+
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spin-animation {
+    animation: spin 1s linear infinite;
+  }
+  

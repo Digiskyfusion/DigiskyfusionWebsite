@@ -20,15 +20,16 @@ function App() {
     <>
     
    
-    <Navbar /> 
+  <Navbar />
  <Home />
  <WholeCircle />
  <Ourservices />
  <Chooseus />
+ <Experience />
  <Portfolio /> 
- <Contactus />
- <Footer />
- {/* <Experience /> */}
+ <Contactus /> 
+ <Footer /> 
+ 
    
  
    

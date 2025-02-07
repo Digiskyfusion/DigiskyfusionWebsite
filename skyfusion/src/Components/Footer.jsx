@@ -56,10 +56,10 @@ function Footer() {
             placeholder="Enter Message"
             className="bg-white text-black rounded-md py-2 px-4 mt-2 w-full max-w-[250px] outline-none"
           />
-          <button className="cursor-pointer bg-gradient-to-r hidden md:block from-[#0E546A] to-[#F16D3C] mt-3 md:px-8 md:py-2 rounded-full text-sm font-semibold">
+          <button className="cursor-pointer hidden md:block bg-gradient-to-r  from-[#0E546A] to-[#F16D3C] mt-3 md:px-8 md:py-2 rounded-full text-sm font-semibold">
             Send
           </button>
-          <button className="cursor-pointer bg-gradient-to-r block md:hidden from-[#8E24AA] to-[#FF69B4] mt-3 px-8  py-2 rounded-full text-sm font-semibold">
+          <button className="cursor-pointer  block md:hidden bg-gradient-to-r from-[#8E24AA] to-[#FF69B4] mt-3 px-8  py-2 rounded-full text-sm font-semibold">
             Send
           </button>
         </div>
