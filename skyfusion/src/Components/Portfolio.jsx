@@ -3,7 +3,7 @@ import React from 'react';
 function Portfolio() {
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-medium text-start mb-6 ">Portfolio</h1>
+      <h1 className="text-3xl font-medium text-start mb-6 Roboto-thin">Portfolio</h1>
       <p className="text-start  mb-12 md:w-[28%] font-normal text-3xl poppins-thin">
         Explore our success stories and discover how we’ve helped businesses achieve their digital goals.
       </p>

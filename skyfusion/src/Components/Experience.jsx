@@ -23,7 +23,7 @@ const cards = [
       "We create tailored marketing strategies to meet your business goals and maximize your return on investment.",
     name: "Sophia Miller",
     position: "Marketing Head",
-    bgColor: "bg-[#0E546A] text-white",
+    bgColor: "bg-white text-[#0E546A]",
     image: Ellipse1,
   },
   {
@@ -38,6 +38,10 @@ const cards = [
   },
 ];
 
+
+
+
+
 function Experience() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-6 md:px-12 lg:px-24 py-12">
@@ -45,7 +49,7 @@ function Experience() {
         <div
           key={card.id}
           className={`rounded-md border-2 border-gray-400 relative p-6 ${card.bgColor} 
-            transition-all duration-300 hover:bg-gradient-to-r hover:shadow-2xl hover shadow-blue-300`}
+            transition-all duration-300 hover:bg-[#0E546A] hover:text-white hover:shadow-2xl shadow-blue-300`}
         >
           <div className="relative flex justify-center">
             <img
@@ -76,5 +80,4 @@ function Experience() {
     </div>
   );
 }
-
 export default Experience;

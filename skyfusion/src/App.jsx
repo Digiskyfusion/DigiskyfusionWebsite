@@ -13,6 +13,7 @@ import Footer from './Components/Footer'
 import Chooseus from './Components/Chooseus'
 import Experience from './Components/Experience'
 
+
 function App() {
   
 
@@ -26,6 +27,7 @@ function App() {
  <Ourservices />
  <Chooseus />
  <Experience />
+
  <Portfolio /> 
  <Contactus /> 
  <Footer /> 
