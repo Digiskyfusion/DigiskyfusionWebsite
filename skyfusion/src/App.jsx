@@ -3,15 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar'
-import { Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Components/Home'
-import WholeCircle from './Components/WholeCircle'
-import Ourservices from './Components/Ourservices'
-import Contactus from './Components/Contactus'
-import Portfolio from './Components/Portfolio'
-import Footer from './Components/Footer'
-import Chooseus from './Components/Chooseus'
-import Experience from './Components/Experience'
+import AboutUs from './Components/Aboutus'
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -20,24 +15,20 @@ function App() {
   return (
     <>
     
-   
+   <BrowserRouter>
   <Navbar />
- <Home />
- <WholeCircle />
- <Ourservices />
- <Chooseus />
- <Experience />
-
- <Portfolio /> 
- <Contactus /> 
- <Footer /> 
- 
-   
- 
-   
-    <Routes>
-   
+  <Routes>
+    <Route  path='/' element={<Home />} />
+    <Route  path='/about' element={<AboutUs />} />
     </Routes>
+ <Footer /> 
+</BrowserRouter>
+
+ 
+   
+ 
+   
+   
     
     </>
   )

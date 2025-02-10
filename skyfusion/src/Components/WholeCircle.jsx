@@ -1,5 +1,6 @@
 import React from 'react'
-import polo from './Polo.png';
+import Polo from './../assets/Images/Polo.png';
+
 
 function WholeCircle() {
     let obj = [

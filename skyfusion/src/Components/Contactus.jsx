@@ -64,7 +64,7 @@ useEffect(()=>{
 
         <button
           type="submit"
-          className="poppins-thin py-2 px-5  md:px-8 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white md:text-lg font-semibold transition duration-300 hover:opacity-90 cursor-pointer"
+          className=" poppin poppins-thin py-2 px-6  md:px-8 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white md:text-lg font-semibold transition duration-300 hover:opacity-90 cursor-pointer"
           >
           Send to
         </button>

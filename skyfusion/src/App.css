@@ -45,3 +45,13 @@
     font-weight: 400;
     font-style: normal;
   }
+  .poppin{
+    font-family: "Poppins";
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 12%;
+  }
+  .active{
+    color: #F16D3C;
+  }

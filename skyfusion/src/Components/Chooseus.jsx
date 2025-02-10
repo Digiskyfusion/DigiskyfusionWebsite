@@ -7,15 +7,6 @@ import Image4 from './../assets/Images/Image4.jpg';
 import Image5 from './../assets/Images/Image5.jpg';
 
 
-
-
-
-
-
-
-
-
-
 function Chooseus() {
   const features = [
     { id: "01", title: "Proven Expertise", desc: "Our team of certified digital marketing professionals brings years of experience to craft successful strategies.", img: cartpic},

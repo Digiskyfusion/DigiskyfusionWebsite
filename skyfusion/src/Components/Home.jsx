@@ -7,6 +7,12 @@ import ellips from './../assets/Images/Elips.png';
 import frontLogo from './../assets/Images/femaleLogo.png';
 import sound from './../assets/Images/sound.jpg';
 import circle from './../assets/Images/Circle1.png';
+import WholeCircle from './WholeCircle';
+import OurServices from './Ourservices';
+import Chooseus from './Chooseus';
+import Experience from './Experience';
+import Portfolio from './Portfolio';
+import ContactUs from './Contactus';
 
 function Home() {
   useEffect(() => {
@@ -56,6 +62,12 @@ function Home() {
           </div>
         </div>
       </section>
+      <WholeCircle />
+      <OurServices />
+      <Chooseus />
+      <Experience />
+      <Portfolio /> 
+      <ContactUs /> 
     </div>
   );
 }
