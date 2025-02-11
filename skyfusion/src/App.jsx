@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Components/Home'
 import AboutUs from './Components/Aboutus'
 import Footer from "./Components/Footer"
+import Membershipplan from './Components/Membershipplan'
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
     </Routes>
  <Footer /> 
 </BrowserRouter>
+
+ <Membershipplan />
 
  
    
