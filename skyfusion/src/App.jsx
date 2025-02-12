@@ -8,6 +8,7 @@ import Home from './Components/Home'
 import AboutUs from './Components/Aboutus'
 import Footer from "./Components/Footer"
 import Membershipplan from './Components/Membershipplan'
+import Services from './Pages/Services'
 
 
 function App() {
@@ -17,15 +18,18 @@ function App() {
     <>
     
    <BrowserRouter>
+   
   <Navbar />
   <Routes>
     <Route  path='/' element={<Home />} />
     <Route  path='/about' element={<AboutUs />} />
+    <Route  path='/services' element={ <Services />} />
     </Routes>
+   
  <Footer /> 
 </BrowserRouter>
 
- <Membershipplan />
+
 
  
    

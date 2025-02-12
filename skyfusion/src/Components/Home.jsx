@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 
 import logo from './../assets/Images/background.png.png';
 import ellips from './../assets/Images/Elips.png';
@@ -15,10 +14,7 @@ import Portfolio from './Portfolio';
 import ContactUs from './Contactus';
 
 function Home() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-    Aos.refresh();
-  }, []);
+  
 
   return (
     <div className='sticky z-0'>
@@ -26,7 +22,7 @@ function Home() {
         className='relative bg-cover bg-center z-0 px-5 md:px-10 flex items-center md:pt-20'
         style={{ backgroundImage: `url(${logo})` }}
       >
-        <div className='container flex flex-col md:flex-row justify-between items-center' data-aos="zoom-in">
+        <div className='container flex flex-col md:flex-row justify-between items-center'>
           {/* Content */}
           <div className='relative text-center md:text-start md:w-[60%] space-y-5 md:px-10 flex flex-col items-center md:items-start pt-6'>
             {/* Rotating Circle (360deg on Y-axis) */}

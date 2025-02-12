@@ -5,6 +5,9 @@ import RotatedSlider from "./RotatedSlider";
 import VissionSection from "./VissionSection";
 import CLientSection from "./CLientSection";
 
+
+
+
 function AboutUs() {
   return (
     <>
@@ -92,6 +95,7 @@ function AboutUs() {
       
       <VissionSection />
       <CLientSection />
+    
     </>
   );
 }
