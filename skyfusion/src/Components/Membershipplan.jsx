@@ -9,7 +9,7 @@ function MembershipPlan() {
   };
 
   return (
-    <div className="flex flex-col items-center p-8 bg-gray-100 min-h-screen">
+    <div className="flex flex-col items-center p-8 bg-gray-100 ">
       <motion.h1
         className="text-3xl font-bold mb-8 text-center"
         initial={{ opacity: 0, y: -20 }}

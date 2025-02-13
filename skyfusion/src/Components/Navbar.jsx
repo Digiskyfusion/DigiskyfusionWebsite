@@ -6,6 +6,7 @@ import back from './../assets/Images/background.png.png';
 import logo from './../assets/Images/logosky.png';
 import { NavLink } from "react-router-dom";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,8 +45,8 @@ const Navbar = () => {
           <li><NavLink to="/about" className="hover:text-gray-600">About Us</NavLink></li>
           <li><NavLink to="/services" className="hover:text-gray-600">Services</NavLink></li>
           <li><NavLink to="/portfolio" className="hover:text-gray-600">Portfolio</NavLink></li>
-          <li><NavLink to="/blog" className="hover:text-gray-600">Blog</NavLink></li>
-          <li><NavLink to="/contact" className="hover:text-gray-600">Contact Us</NavLink></li>
+          {/* <li><NavLink to="/blog" className="hover:text-gray-600">Blog</NavLink></li> */}
+          <li><NavLink to="/ContactUs" className="hover:text-gray-600">Contact Us</NavLink></li>
         </ul>
 
         {/* Login Button */}
@@ -68,7 +69,8 @@ const Navbar = () => {
           <li><NavLink to="/" className="block px-4 py-2" onClick={() => setIsOpen(false)}>Home</NavLink></li>
           <li><NavLink to="/about" className="block px-4 py-2" onClick={() => setIsOpen(false)}>About</NavLink></li>
           <li><NavLink to="/services" className="block px-4 py-2" onClick={() => setIsOpen(false)}>Services</NavLink></li>
-          <li><NavLink to="/contact" className="block px-4 py-2" onClick={() => setIsOpen(false)}>Contact Us</NavLink></li>
+          <li><NavLink to="/portfolio" className="block px-4 py-2" onClick={() => setIsOpen(false)}>Portfolio</NavLink></li>
+          <li><NavLink to="/ContactUs" className="block px-4 py-2" onClick={() => setIsOpen(false)}>Contact Us</NavLink></li>
           <li>
             <button className="py-2 px-5 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white w-full text-center inter" onClick={() => setIsOpen(false)}>Login</button>
           </li>

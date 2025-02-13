@@ -1,6 +1,7 @@
 import React,{useEffect} from "react";
 import  "aos/dist/aos.css";
 import Aos from "aos"
+import Contactuspage from "../Pages/Contactuspage";
 function ContactUs() {
 
 useEffect(()=>{
@@ -27,8 +28,8 @@ useEffect(()=>{
               type="text"
               id="fullname"
               name="Fullname"
-              placeholder="Enter your name"
-              className=" w-full md:w-[90%] p-2 border bg-[#0E546A] text-white rounded-lg outline-none"
+              // placeholder="Enter your name"
+              className=" w-full md:w-[90%] p-2 border  text-black rounded-lg outline-none"
               required
             />
           </div>
@@ -41,8 +42,8 @@ useEffect(()=>{
               type="email"
               id="email"
               name="Email"
-              placeholder="Enter your email"
-              className=" w-full md:w-[90%] p-2 border rounded-lg bg-[#0E546A] text-white outline-none"
+              // placeholder="Enter your email"
+              className=" w-full md:w-[90%] p-2 border rounded-lg  text-black outline-none"
               required
             />
           </div>
@@ -55,8 +56,8 @@ useEffect(()=>{
           <textarea
             id="message"
             name="message"
-            placeholder="Enter your message"
-            className=" w-full md:w-[95%] p-2 border rounded-lg bg-[#0E546A] text-white outline-none resize-none"
+            // placeholder="Enter your message"
+            className=" w-full md:w-[95%] p-2 border rounded-lg  text-black outline-none resize-none"
             rows="4"
             
           ></textarea>
@@ -73,4 +74,6 @@ useEffect(()=>{
   );
 }
 
+
 export default ContactUs;
+

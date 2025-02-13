@@ -17,6 +17,7 @@ function Home() {
   
 
   return (
+    <>
     <div className='sticky z-0'>
       <section
         className='relative bg-cover bg-center z-0 px-5 md:px-10 flex items-center md:pt-20'
@@ -65,6 +66,7 @@ function Home() {
       <Portfolio /> 
       <ContactUs /> 
     </div>
+    </>
   );
 }
 
