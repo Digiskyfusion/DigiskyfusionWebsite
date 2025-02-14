@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import arrow from "./../assets/Images/arrow.png";
 import maleprofile from "./../assets/Images/malepic.png";
 import Ellipse1 from "./../assets/Images/Ellipse1.png";
@@ -38,21 +39,23 @@ const cards = [
   },
 ];
 
-
-
 function Experience() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-6 md:px-12 lg:px-24 py-12">
-      {cards.map((card) => (
-        <div
+      {cards.map((card, index) => (
+        <motion.div
           key={card.id}
           className={`rounded-md border-2 border-gray-400 relative p-6 ${card.bgColor} 
             transition-all duration-300 hover:bg-[#0E546A] hover:text-white hover:shadow-2xl shadow-blue-300`}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: index * 0.2 }}
+          viewport={{ once: false, amount: 0.2 }} // Re-triggers when scrolling up and down
         >
           <div className="relative flex justify-center">
             <img
               src={circle}
-              alt=""
+              alt="circle"
               className="relative right-[2.9rem] bottom-[1.6rem] sm:right-[2.4rem] sm:bottom-[1.6rem] md:right-[4rem] md:bottom-[1.6rem] lg:right-[7.1rem] lg:bottom-[1.6rem]"
             />
             <img
@@ -73,9 +76,10 @@ function Experience() {
             <h1 className="font-semibold text-lg">{card.name}</h1>
             <p className="opacity-80">{card.position}</p>
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
   );
 }
+
 export default Experience;
