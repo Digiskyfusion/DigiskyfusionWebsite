@@ -3,10 +3,7 @@ import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import RotatedSlider from "./RotatedSlider";
 import VissionSection from "./VissionSection";
-import CLientSection from "./CLientSection";
-
-
-
+import StoryCards from "./StoryCards";
 
 function AboutUs() {
   return (
@@ -46,7 +43,9 @@ function AboutUs() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+           Redefining Digital Success
+We believe in the power of innovation, creativity, and strategy to drive impactful digital growth.
+
           </motion.p>
         </motion.div>
 
@@ -61,18 +60,17 @@ function AboutUs() {
 
           {/* Stats Section */}
           <motion.div
-            className="mt-6 sm:mt-8 bg-amber-100 rounded-md flex flex-col sm:flex-row flex-wrap justify-between items-center px-4 sm:px-8 py-6 text-black gap-6 sm:gap-8"
+            className="mt-6 sm:mt-8 bg-amber-100 rounded-md flex flex-col sm:flex-row flex-wrap justify-center items-center px-4 sm:px-5 py-6 text-black gap-6 sm:gap-8"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            {/* First Column */}
-            <div className="grid grid-cols-2 gap-6 sm:flex justify-center text-center text-xl sm:text-2xl lg:text-3xl">
+            {/* Stats List */}
+            <div className="flex flex-wrap justify-center gap-6 sm:gap-8 text-center text-xl sm:text-2xl lg:text-3xl">
               {[
-                { end: 10, text: "Years of Experience", color: "#F16D3C" },
-                { end: 50, text: "Project Challenges", color: "#0E546A" },
-                { end: 500, text: "Positive Reviews", color: "#F16D3C" },
-                { end: 1000, text: "Trusted Students", color: "#0E546A" },
+                { end: 2, text: "Years of Experience", color: "text-[#F16D3C]" },
+                { end: 20, text: "Project Challenges", color: "text-[#0E546A]" },
+                { end: 50, text: "Trusted Clients", color: "text-[#0E546A]" },
               ].map((stat, index) => (
                 <motion.div
                   key={index}
@@ -81,8 +79,8 @@ function AboutUs() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.6 + index * 0.2 }}
                 >
-                  <div>
-                    <CountUp start={0} end={stat.end} duration={3} className={`font-bold text-[${stat.color}]`} />
+                  <div className={`font-bold ${stat.color}`}>
+                    <CountUp start={0} end={stat.end} duration={4} />
                     <span>+</span>
                   </div>
                   <h1 className="text-center font-medium text-sm sm:text-base">{stat.text}</h1>
@@ -94,8 +92,7 @@ function AboutUs() {
       </motion.div>
       
       <VissionSection />
-      <CLientSection />
-    
+      <StoryCards />
     </>
   );
 }

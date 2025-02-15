@@ -12,6 +12,7 @@ import ContactUs from './Components/Contactus'
 import NavPortfolio from './Components/NavPortfolio'
 import Contactuspage from './Pages/Contactuspage'
 import HomePage from './Pages/HomePage'
+import PortfolioPage from './Pages/PortfolioPage'
 
 
 function App() {
@@ -20,13 +21,14 @@ function App() {
   return (
     <> 
    <BrowserRouter>
+
   <Navbar />
   <Routes>
     <Route  path='/' element={<HomePage />} />
     <Route  path='/about' element={<AboutUs />} />
     <Route  path='/services' element={ <Services />} />
     <Route  path='/ContactUs' element={ <Contactuspage />} />
-    <Route path='/portfolio' element={ <NavPortfolio />} />
+    <Route path='/portfolio' element={   <PortfolioPage />} />
     </Routes>
    
  <Footer /> 

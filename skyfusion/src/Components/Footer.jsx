@@ -25,10 +25,10 @@ function Footer() {
             Digital marketing (sometimes called online marketing) is an area of marketing that uses digital channels to connect with customers.
           </p>
           <div className="flex gap-4 mt-4 text-2xl">
-            <a href="#" className="hover:text-orange-400"><CiInstagram /></a>
-            <a href="#" className="hover:text-blue-500"><CiFacebook /></a>
-            <a href="#" className="hover:text-blue-600"><FaLinkedinIn /></a>
-            <a href="#" className="hover:text-blue-400"><FaTwitter /></a>
+            <a href="https://www.instagram.com/digiskyfusion?igsh=d242aTBrNGQzZDR6" target='_blank' className="hover:text-orange-400"><CiInstagram /></a>
+            <a href="https://www.facebook.com/share/15AWmqvS2x/" target='_blank' className="hover:text-blue-500"><CiFacebook /></a>
+            <a href="https://www.linkedin.com/in/digisky-fusion-01a6002b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' className="hover:text-blue-600"><FaLinkedinIn /></a>
+            {/* <a href="#" target='_blank' className="hover:text-blue-400"><FaTwitter /></a> */}
           </div>
         </div>
 

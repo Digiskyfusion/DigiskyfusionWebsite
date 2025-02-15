@@ -51,12 +51,13 @@ function OurServices() {
         </p>
 
         {/* Accordion Section */}
-        <div className='mt-4 md:mt-8 w-full Roboto-thin'>
+                <div className='mt-4 md:mt-8 w-full Roboto-thin'>
           {[
-            'Search Engine Optimization (SEO)',
-            'Pay-Per-Click Advertising (PPC)',
-            'Social Media Marketing',
-            'Content Marketing',
+            { title: 'Branding & Identity', desc: 'Because your brand deserves to be unforgettable!' },
+            { title: 'Website Development', desc: 'We build websites that don’t just sit there; they talk,engage, and convert!' },
+            { title: 'Social Media Marketing', desc: 'Likes, shares, and viral trends? We make them happen.' },
+            { title: 'SEO & Content Strategy', desc: 'Because a business without Google rankings is like pizza without cheese (heartbreaking, right?).' },
+            { title: 'Graphic & Video Creations', desc: '– Let’s make your brand visually stunning! We don’t just "work"—we create stories, connections, and success for our clients.' },
           ].map((service, index) => (
             <motion.details
               key={index}
@@ -69,14 +70,15 @@ function OurServices() {
               className='border-b-2 border-black pb-2 rounded-md p-3 transition-all md:mb-5 duration-300 hover:bg-gray-100 focus:outline-none'
             >
               <summary className='font-medium pb-3 cursor-pointer'>
-                {service}
+                {service.title}
               </summary>
               <p className='text-gray-500'>
-                Deliver {service.toLowerCase()} value with compelling content that educates, inspires, and converts.
+                {service.desc}
               </p>
             </motion.details>
           ))}
         </div>
+
 
         {/* CTA Button */}
         <motion.button

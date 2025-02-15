@@ -9,12 +9,12 @@ import Image5 from './../assets/Images/Image5.jpg';
 
 function Chooseus() {
   const features = [
-    { id: "01", title: "Proven Expertise", desc: "Our team of certified digital marketing professionals brings years of experience to craft successful strategies.", img: cartpic },
-    { id: "02", title: "Customized Solutions", desc: "We tailor marketing strategies to fit your specific business goals and industry needs.", img: image1 },
-    { id: "03", title: "Data-Driven Approach", desc: "We rely on analytics and data insights to optimize campaigns for maximum impact.", img: Image2 },
-    { id: "04", title: "Comprehensive Services", desc: "From SEO to paid advertising, we offer full-suite marketing solutions under one roof.", img: Image3 },
-    { id: "05", title: "Transparent Communication", desc: "We keep you informed with clear reporting and open communication at every step.", img: Image4 },
-    { id: "06", title: "Continuous Optimization", desc: "We analyze and refine strategies to ensure long-term success in your digital marketing efforts.", img: Image5 },
+    { id: "01", title: "Proven Expertise", desc: "Our squad of certified marketing ninjas crafts battle-tested strategies to put your brand ahead of the game.", img: cartpic },
+    { id: "02", title: "Customized Solutions", desc: "One-size-fits-all? Not here! We tailor strategies that align perfectly with your goals & industry trends", img: image1 },
+    { id: "03", title: "Data-Driven Power", desc: "We let numbers do the talking—analyzing insights to fine-tune campaigns for maximum impact.", img: Image2 },
+    { id: "04", title: "All-in-One Digital Arsenal", desc: "From SEO domination to high-converting ads, we handle everything under one roof.", img: Image3 },
+    { id: "05", title: "Transparent Communication", desc: "No smoke and mirrors—just clear, open, and honest reporting so you're always in the loop.", img: Image4 },
+    { id: "06", title: "Continuous Growth Optimization", desc: "We don’t stop at success; we scale it! Our strategies evolve to keep you winning.", img: Image5 },
   ];
 
   return (
@@ -37,7 +37,8 @@ function Chooseus() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        Choose us to transform your online presence and achieve digital success.
+        We don’t just market your brand; we engineer its success. Here’s why businesses trust us to supercharge their digital presence:
+
       </motion.p>
 
       <div className="mt-10">

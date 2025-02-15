@@ -37,11 +37,13 @@ function Home() {
                 alt="Rotating Circle"
               />
               
-              <h1 className='text-3xl md:text-6xl font-poppins leading-tight Roboto-thin'>
-                Elevate Your Brand with UI/UX Designer & Digital Marketing
+              <h1 className='text-3xl md:text-6xl  leading-tight Roboto-thin'>
+              DigiSkyFusion – Where Brands Don’t Just Exist, They Dominate!
+
               </h1>
               <p className='text-lg md:text-2xl poppins-thin'>
-                Digital marketing (sometimes called online marketing) is an area of marketing that uses digital channels to connect with customers.
+              Imagine a world where your brand doesn’t just sit in the crowd—it owns the stage. That’s what we do at DigiSkyFusion. We blend creativity, strategy, and technology to turn brands into digital powerhouses.
+
               </p>
 
               <motion.div

@@ -27,14 +27,15 @@ function Homepage() {
               className='absolute left-[-30px] top-7 h-10 w-10 md:w-28 md:h-36 md:left-[-70px] rotate-y-360'
               alt='Rotating Circle'
             />
-            <h1 className='text-3xl md:text-6xl font-poppins leading-tight'>
-              Elevate Your Brand with UI/UX Designer & Digital Marketing
+            <h1 className='text-3xl md:text-6xl font-poppins leading-tight Roboto-thin'>
+            Rotating Circle
+            DigiSkyFusion – Where Brands Don’t Just Exist, They Dominate!
             </h1>
-            <p className='text-lg md:text-2xl'>
-              Digital marketing (sometimes called online marketing) is an area of marketing that uses digital channels to connect with customers.
+            <p className='text-lg md:text-2xl poppins-thin'>
+            Imagine a world where your brand doesn’t just sit in the crowd—it owns the stage. That’s what we do at DigiSkyFusion. We blend creativity, strategy, and technology to turn brands into digital powerhouses.
             </p>
             <div className='hidden md:flex cursor-pointer'>
-              <button className='py-2 px-5 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white'>
+              <button className='py-2 px-5 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white poppins-thin'>
                 Get Started
               </button>
             </div>
@@ -53,7 +54,7 @@ function Homepage() {
               <img src={third} className='absolute top-[6.8rem] left-[-1.9rem] md:top-[10rem] md:left-[-4rem] w-10 h-10 md:w-16 md:h-16 rounded-full shadow-lg' alt='Third Icon' />
               <img src={fourth} className='absolute top-[10.8rem] left-[-1.5rem] md:top-[16rem] md:left-[-3rem] w-10 h-10 md:w-16 md:h-16 rounded-full shadow-lg' alt='Fourth Icon' />
               <img src={fifth} className='absolute  top-[14.8rem] left-[-1rem] md:top-[21rem] md:left-[-1rem] w-10 h-10 md:w-16 md:h-16 rounded-full shadow-lg' alt='Fifth Icon' />
-              <img src={femalelogo1} className='absolute inset-0 w-[120%] md:w-[90%] pt-15 z-10' alt='Main Graphic' />
+              <img src={femalelogo1} className='absolute inset-0 w-[120%] md:w-[100%] pt-15 z-10' alt='Main Graphic' />
             </div>
           </div>
         </div>

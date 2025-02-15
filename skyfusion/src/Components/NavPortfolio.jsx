@@ -19,7 +19,7 @@ function NavPortfolio() {
     <>
       <div className="relative z-0">
         <section
-          className="relative bg-cover bg-center px-4 sm:px-6 md:px-10 flex items-center md:pt-20 py-10"
+          className="relative bg-cover bg-center px-4 sm:px-6 md:px-10 flex items-center md:pt-20 py-5"
           style={{ backgroundImage: `url(${logo})` }}
         >
           <div className="container flex flex-col md:flex-row justify-between items-center">
@@ -34,13 +34,10 @@ function NavPortfolio() {
                 Portfolio
               </h1>
               <p className="text-base sm:text-lg md:text-xl  poppins-thin">
-                Digital marketing (sometimes called online marketing) is an area of marketing that uses digital channels to connect with customers.
-              </p>
-              <p className="text-base sm:text-lg md:text-xl  poppins-thin">
-                Digital marketing (sometimes called online marketing) is an area of marketing that uses digital channels to connect with customers.
+              Imagine a world where your brand doesn’t just sit in the crowd—it owns the stage. That’s what we do at DigiSkyFusion. We blend creativity, strategy, and technology to turn brands into digital powerhouses.
               </p>
               <div className="cursor-pointer mt-4">
-                <button className="py-2 px-5 sm:py-3 sm:px-6 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white">
+                <button className="py-2 px-5 sm:py-3 sm:px-6 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white poppins-thin">
                   Get Started
                 </button>
               </div>
@@ -86,17 +83,12 @@ function NavPortfolio() {
 
                         </div>
                 </div>
-                <img src={port} className="absolute inset-0 md:left-10 w-[75%] sm:w-[90%] md:w-[75%] lg:w-[60%] pt-10 -z-10" alt="Main Graphic" />
+                <img src={port} className="absolute inset-0 md:left-10 w-[75%] sm:w-[90%] md:w-[75%] lg:w-[63.5%] pt-10 -z-10" alt="Main Graphic" />
               </div>
             </div>
           </div>
         </section>
       </div>
-     <WholeCircle />
-        <Portfolio />
-        <Experience />
-
-      
     </>
   );
 }

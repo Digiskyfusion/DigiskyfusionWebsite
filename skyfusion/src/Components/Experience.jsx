@@ -9,9 +9,9 @@ import circle from "./../assets/Images/circle.png";
 const cards = [
   {
     id: 1,
-    title: "Love the Simplicity",
+    title: "Stand Out",
     description:
-      "With years of experience, our team of certified digital marketing professionals knows how to deliver strategies that drive measurable results.",
+      "Don't just fit in—shine bright! We help your brand grab attention and be different from the rest. With creative ideas, bold designs, and smart strategies, we make sure you leave a lasting impression.",
     name: "Allan Collins",
     position: "Managing Director",
     bgColor: "bg-white text-[#0E546A]",
@@ -19,9 +19,9 @@ const cards = [
   },
   {
     id: 2,
-    title: "Expert Strategies",
+    title: " Connect",
     description:
-      "We create tailored marketing strategies to meet your business goals and maximize your return on investment.",
+      "Make your audience feel something. We create stories and designs that build trust and strong bonds. Whether it’s through powerful words, engaging visuals, or interactive experiences, we help you form real connections that matter.",
     name: "Sophia Miller",
     position: "Marketing Head",
     bgColor: "bg-white text-[#0E546A]",
@@ -29,9 +29,9 @@ const cards = [
   },
   {
     id: 3,
-    title: "Customer Focused",
+    title: " Grow",
     description:
-      "Our clients are at the heart of everything we do. We work closely to ensure their success.",
+      "Take your brand to the next level. With smart ideas and the right moves, we help you reach new heights. From expert strategies to result-driven actions, we ensure steady growth, stronger engagement, and long-term success.",
     name: "Michael Smith",
     position: "Operations Lead",
     bgColor: "bg-white text-[#0E546A]",
@@ -70,7 +70,7 @@ function Experience() {
           </div>
           <div className="flex justify-center items-center relative mt-5">
             <div className="h-32 w-32 sm:h-36 sm:w-36 md:h-40 md:w-40 rounded-full bg-gradient-to-t from-[#0E546A] to-[#F16D3C]"></div>
-            <img src={card.image} alt="profile" className="absolute w-28 sm:w-28 md:w-35" />
+            <img src={card.image} alt="profile" className="absolute w-28 sm:w-32 md:w-36" />
           </div>
           <div className="text-center mt-4">
             <h1 className="font-semibold text-lg">{card.name}</h1>

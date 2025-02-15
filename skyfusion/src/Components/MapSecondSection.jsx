@@ -4,6 +4,33 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
+const contactDetails = [
+  {
+    icon: <CiLocationOn className="text-white text-xl" aria-label="Location" />,
+    text: "Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar, Chandigarh, Punjab 160055",
+    href: "https://maps.google.com/?q=Phase+8B,+Industrial+Area,+Sector+74,+Chandigarh"
+  },
+  {
+    icon: <FaPhoneAlt className="text-white text-sm" aria-label="Phone" />,
+    text: "+91 8087916794",
+    href: "tel:+918087916794"
+  },
+  {
+    icon: <IoIosMail className="text-white text-lg" aria-label="Email" />,
+    text: "digiskyfusion@gmail.com",
+    href: "mailto:digiskyfusion@gmail.com"
+  }
+];
+
+const ContactItem = ({ icon, text, href }) => (
+  <div className="flex items-center space-x-2">
+    {icon}
+    <a className="text-white hover:underline" href={href} target="_blank" rel="noopener noreferrer">
+      {text}
+    </a>
+  </div>
+);
+
 function MapSecondSection() {
   return (
     <motion.div
@@ -29,22 +56,9 @@ function MapSecondSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
-            <div className="flex items-center space-x-2">
-              <CiLocationOn className="text-white text-xl" />
-              <p className="text-white">F-268 Mohali 8B</p>
-            </div>
-
-            <div className="flex items-center space-x-2">
-              <FaPhoneAlt className="text-white text-sm" />
-              <p className="text-white">+91 12345 67890</p>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 mt-6">
-            <div className="flex items-center space-x-2">
-              <IoIosMail className="text-white text-lg" />
-              <p className="text-white">info@example.com</p>
-            </div>
+            {contactDetails.map((item, index) => (
+              <ContactItem key={index} {...item} />
+            ))}
           </div>
         </motion.div>
       </div>

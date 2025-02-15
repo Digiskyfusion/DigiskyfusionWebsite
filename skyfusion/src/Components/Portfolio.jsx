@@ -32,16 +32,18 @@ function Portfolio() {
         Explore our success stories and discover how we’ve helped businesses achieve their digital goals.
       </motion.p>
 
+      {/* Additional Paragraph */}
+
       {/* Portfolio Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <PortfolioItem title="SEO Excellence" progress={94} />
-          <PortfolioItem title="Social Media Mastery" progress={98} />
-          <PortfolioItem title="PPC Campaigns That Convert" progress={95} />
+          <PortfolioItem title="Digital Strategies" progress={94} />
+          <PortfolioItem title="SEO Dominance" progress={98} />
+          <PortfolioItem title="Social Buzz" progress={95} />
         </div>
         <div>
-          <PortfolioItem title="Compelling Content Marketing" progress={93} />
-          <PortfolioItem title="Email Marketing Success" progress={97} />
+          <PortfolioItem title="Content Impact" progress={93} />
+          <PortfolioItem title="Email Wins" progress={97} />
         </div>
       </div>
     </motion.div>

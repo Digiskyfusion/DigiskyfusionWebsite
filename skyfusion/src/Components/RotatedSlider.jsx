@@ -37,7 +37,9 @@ export default function RotatedSlider() {
             transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
           >
             <p className="text-lg text-white px-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text since the 1500s.
+            Redefining Digital Success
+We believe in the power of innovation, creativity, and strategy to drive impactful digital growth.
+
             </p>
           </motion.div>
         </div>

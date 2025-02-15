@@ -1,34 +1,39 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Polo from './../assets/Images/Polo.png';
 
 function WholeCircle() {
     let obj = [
-        { "name": "POLO", "nickname": "RALPH LAUREN" },
-        { "name": "POLO", "nickname": "RALPH LAUREN" },
-        { "name": "POLO", "nickname": "RALPH LAUREN" },
-        { "name": "POLO", "nickname": "RALPH LAUREN" },
-        { "name": "POLO", "nickname": "RALPH LAUREN" },
-        { "name": "POLO", "nickname": "RALPH LAUREN" }
+        { name: "UI/UX Alchemy", nickname: "Designs so smooth, your users won’t want to leave." },
+        { name: "Digital Sorcery", nickname: "Ads, content, and campaigns that make people stop, stare, and act." },
+        { name: "SEO Wizardry", nickname: "Because being unseen in search results is not an option." },
+        { name: "Social Media Fireworks", nickname: "Scroll-stopping, engagement-driving magic." },
     ];
 
     return (
         <motion.div
-            className='px-5 relative mt-12 md:mt-8'
+            className="px-5 relative mt-20 md:mt-8"
             initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-            viewport={{ once: true }}
+            whileInView={{ opacity: 1, y: 0, rotate: [0, 2, -2, 0] }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: false, amount: 0.2 }}
         >
-            <div className='bg-gradient-to-r from-[#F16D3C] to-[#0E546A] rounded-2xl md:rounded-full flex flex-wrap justify-evenly items-center p-4'>
-                {
-                    obj.map((current, index) => (
-                        <div key={index} className='flex flex-wrap flex-col justify-evenly items-center text-white md:mx-2 p-2'>
-                            <h1 className='text-lg font-bold sm:mr-2'>{current.name}</h1>
-                            <p className='text-sm'>{current.nickname}</p>
-                        </div>
-                    ))
-                }
+            <div className="bg-gradient-to-r from-[#F16D3C] to-[#0E546A] rounded-2xl md:rounded-full p-6 md:px-15 flex flex-col md:flex-row items-center justify-center gap-6 shadow-lg">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full">
+                    {obj.map((current, index) => (
+                        <motion.div
+                            key={index}
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -30 }}
+                            transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.2 }}
+                            whileHover={{ scale: 1.1, rotate: 2 }}
+                            className="flex flex-col items-center text-white text-center p-4 bg-white/10 backdrop-blur-lg rounded-lg shadow-md hover:bg-white/20 transition duration-300"
+                        >
+                            <h1 className="text-lg font-bold">{current.name}</h1>
+                            <p className="text-sm mt-2">{current.nickname}</p>
+                        </motion.div>
+                    ))}
+                </div>
             </div>
         </motion.div>
     );

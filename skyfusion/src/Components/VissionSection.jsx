@@ -19,12 +19,10 @@ function VisionSection() {
           <h2 className="text-xl font-semibold">Our Vision</h2>
         </div>
         <h3 className="text-2xl font-bold text-gray-800 mt-2">
-          Empowering Lives Through Education
+        Turning Clicks into Conversions, Ideas into Impact
         </h3>
         <p className="text-gray-600 mt-3 leading-relaxed">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer.
+        We don’t just market brands—we build digital legacies. Our vision is to create strategies that don’t just exist but dominate.
         </p>
       </motion.div>
 
@@ -41,12 +39,12 @@ function VisionSection() {
           <h2 className="text-xl font-semibold">Our Mission</h2>
         </div>
         <h3 className="text-2xl font-bold text-gray-800 mt-2">
-          Shaping the Future with Knowledge
+        Innovate. Elevate. Dominate.
+
         </h3>
         <p className="text-gray-600 mt-3 leading-relaxed">
-          It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was
-          popularized in the 1960s with the release of Letraset sheets.
+        The digital world moves fast, and so do we. With a mix of creativity, strategy, and tech, we craft campaigns that turn brands into powerhouses.
+
         </p>
       </motion.div>
     </div>
