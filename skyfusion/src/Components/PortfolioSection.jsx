@@ -22,7 +22,7 @@ const portfolioItems = [
     link: "https://reddybookings.com/",
   },
   {
-    title: "Vivah Sans Karnagpur",
+    title: "Vivah SansKar nagpur",
     description: "Shri Radha Krishna Mandir Vivah Mandal, located in Nagpur, Maharashtra, is a dedicated marriage center offering comprehensive matrimonial services. ",
     image: vivahsankar,
     link: "https://www.vivahsanskarnagpur.com/",

@@ -28,7 +28,7 @@ function Homepage() {
               alt='Rotating Circle'
             />
             <h1 className='text-3xl md:text-6xl font-poppins leading-tight Roboto-thin'>
-            Rotating Circle
+           
             DigiSkyFusion – Where Brands Don’t Just Exist, They Dominate!
             </h1>
             <p className='text-lg md:text-2xl poppins-thin'>

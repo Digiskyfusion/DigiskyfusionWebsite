@@ -16,7 +16,7 @@ function HomePage() {
       <WholeCircle />
       <OurServices />
       <Chooseus />
-      <Experience />
+      {/* <Experience /> */}
       <Portfolio />
       <ContactUs />
   

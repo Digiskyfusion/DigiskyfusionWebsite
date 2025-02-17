@@ -13,7 +13,7 @@ function PortfolioPage() {
         <WholeCircle />
         <PortfolioSection />
         <Portfolio />
-        <Experience />
+        {/* <Experience /> */}
       </div>
     </>
   )
