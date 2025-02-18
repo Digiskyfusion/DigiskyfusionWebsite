@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import footerlogo from './../assets/Images/logosky.png';
 import  "aos/dist/aos.css";
 import Aos from "aos"
-
+import { Link } from "react-router-dom";
 // Icons
 import { CiInstagram, CiFacebook } from "react-icons/ci";
 import { FaLinkedinIn } from "react-icons/fa6";
@@ -36,12 +36,12 @@ function Footer() {
       <div className="flex flex-col items-start md:items-center md:justify-start">
         <h1 className="text-lg font-semibold mb-3 mr-5">Menu</h1>
         <ul className="space-y-2 text-sm text-start">
-          <li><a href="/" className="hover:text-orange-400">Home</a></li>
-          <li><a href="/about" className="hover:text-orange-400">About Us</a></li>
-          <li><a href="/services" className="hover:text-orange-400">Services</a></li>
-          <li><a href="/portfolio" className="hover:text-orange-400">Portfolio</a></li>
+          <li><Link to="/" className="hover:text-orange-400">Home</Link></li>
+          <li><Link to="/about" className="hover:text-orange-400">About Us</Link></li>
+          <li><Link to="/services" className="hover:text-orange-400">Services</Link></li>
+          <li><Link to="/portfolio" className="hover:text-orange-400">Portfolio</Link></li>
           {/* <li><a href="#" className="hover:text-orange-400">Blog</a></li> */}
-          <li><a href="/ContactUs" className="hover:text-orange-400">Contact Us</a></li>
+          <li><Link to="/ContactUs" className="hover:text-orange-400">Contact Us</Link></li>
         </ul>
       </div>
 
