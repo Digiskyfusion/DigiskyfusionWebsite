@@ -36,11 +36,12 @@ function Footer() {
       <div className="flex flex-col items-start md:items-center md:justify-start">
         <h1 className="text-lg font-semibold mb-3 mr-5">Menu</h1>
         <ul className="space-y-2 text-sm text-start">
-          <li><a href="#" className="hover:text-orange-400">About Us</a></li>
-          <li><a href="#" className="hover:text-orange-400">Services</a></li>
-          <li><a href="#" className="hover:text-orange-400">Portfolio</a></li>
-          <li><a href="#" className="hover:text-orange-400">Blog</a></li>
-          <li><a href="#" className="hover:text-orange-400">Contact Us</a></li>
+          <li><a href="/" className="hover:text-orange-400">Home</a></li>
+          <li><a href="/about" className="hover:text-orange-400">About Us</a></li>
+          <li><a href="/services" className="hover:text-orange-400">Services</a></li>
+          <li><a href="/portfolio" className="hover:text-orange-400">Portfolio</a></li>
+          {/* <li><a href="#" className="hover:text-orange-400">Blog</a></li> */}
+          <li><a href="/ContactUs" className="hover:text-orange-400">Contact Us</a></li>
         </ul>
       </div>
 
