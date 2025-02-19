@@ -54,12 +54,12 @@ function Footer() {
             placeholder="Enter Message"
             className="bg-white text-sm py-2 text-black rounded-md mb-3 px-4 mt-2 w-full max-w-[250px] outline-none"
           />
-          <button className="cursor-pointer hidden md:block bg-gradient-to-r from-[#0E546A] to-[#F16D3C] mt-1 md:px-10 md:py-1 rounded-full text-sm font-semibold md:text-lg">
+          <button className="cursor-pointer  bg-gradient-to-r from-[#0E546A] to-[#F16D3C] mt-1 md:px-10 px-5 py-1 rounded-full text-sm font-semibold md:text-lg">
             Send
           </button>
-          <button className="cursor-pointer block md:hidden bg-gradient-to-r from-[#8E24AA] to-[#FF69B4] mt-3 px-8 py-2 rounded-full text-sm font-semibold">
+          {/* <button className="cursor-pointer block md:hidden bg-gradient-to-r from-[#8E24AA] to-[#FF69B4] mt-3 px-8 py-2 rounded-full text-sm font-semibold">
             Send
-          </button>
+          </button> */}
         </div>
       </div>
       <div className='flex justify-center mt-2 md:mt-0'>

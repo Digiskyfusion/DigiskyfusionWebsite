@@ -2,16 +2,31 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Productimg1 from "./../assets/Images/Productimg1.png";
 import icon from "./../assets/Images/icon.png";
+import imageone from './../assets/Images/imageone.png';
+import imagethree from './../assets/Images/imagethree.png';
+import imagetwo from './../assets/Images/imagetwo.png';
+import add from './../assets/Images/Add.png';
+import imagefive from './../assets/Images/imagefive.png';
+import imagefour from './../assets/Images/imagefour.png';
+import imagesix from './../assets/Images/imagesix.png';
+import imageseven from './../assets/Images/imageseven.png';
+import imageeight from './../assets/Images/imageeight.png';
+
+
+
+
+
+
 
 function ReverseCarousel() {
   const [reverse, setReverse] = useState(false);
 
   const products = [
-    { id: 1, title: "Social Media Marketing", img: Productimg1 },
-    { id: 2, title: "SEO Optimization", img: Productimg1 },
-    { id: 3, title: "Content Marketing", img: Productimg1 },
-    { id: 4, title: "Email Marketing", img: Productimg1 },
-    { id: 5, title: "Affiliate Marketing", img: Productimg1 },
+    { id: 1, title: "Website development", img: imagefour },
+    { id: 2, title: "Graphics & video editing ", img: imagefive},
+    { id: 3, title: "Branding", img: imagesix },
+    { id: 4, title: " Search Surge ", img: imageseven },
+    { id: 5, title: "BrandCraft", img: imageeight },
   ];
 
   return (

@@ -51,7 +51,7 @@ function Chooseus() {
     <div className="p-6  ">
       {/* Title Animation */}
       <motion.h1
-        className="text-5xl font-extrabold mt-3 text-center "
+        className="md:text-5xl text-2xl font-extrabold mt-3 text-center "
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -61,7 +61,7 @@ function Chooseus() {
       </motion.h1>
 
       <motion.p
-        className="text-xl font-light md:w-3/5 mt-3 text-center mx-auto  leading-relaxed"
+        className="md:text-xl text-sm font-light md:w-3/5 mt-3 text-center mx-auto  leading-relaxed"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}

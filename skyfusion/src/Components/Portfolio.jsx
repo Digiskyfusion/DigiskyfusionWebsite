@@ -12,7 +12,7 @@ function Portfolio() {
     >
       {/* Title */}
       <motion.h1 
-        className="text-5xl font-extrabold mt-3 text-center Roboto-thin"
+        className="md:text-5xl text-2xl font-extrabold mt-3 text-center Roboto-thin"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
@@ -23,7 +23,7 @@ function Portfolio() {
 
       {/* Description */}
       <motion.p 
-        className="text-xl font-light md:w-3/5 mt-3 text-center mx-auto  leading-relaxed poppins-thin"
+        className="md:text-xl text-sm font-light md:w-3/5 mt-3 text-center mx-auto  leading-relaxed poppins-thin"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}

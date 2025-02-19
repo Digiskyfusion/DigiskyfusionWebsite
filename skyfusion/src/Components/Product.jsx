@@ -6,13 +6,16 @@ import ReverseCrousel from "./ReverseCrousel";
 import background from './../assets/Images/background.png.png';
 import Content from './../assets/Images/Content.png';
 import Add from './../assets/Images/Add.png';
+import image1 from './../assets/Images/imageone.png';
+import image2 from './../assets/Images/imagetwo.png';
+
 
 const products = [
   { id: 1, title: "Social Media Marketing", img: Productimg1 },
   { id: 2, title: "SEO Optimization", img: Content },
-  { id: 3, title: "Content Marketing", img: Productimg1 },
+  { id: 3, title: "Content Marketing", img: image1 },
   { id: 4, title: "Email Marketing", img: Add },
-  { id: 5, title: "Affiliate Marketing", img: Productimg1 },
+  { id: 5, title: "Affiliate Marketing", img: image2 },
 ];
 
 function Product() {
@@ -82,7 +85,7 @@ function Product() {
         transition={{ duration: 0.5 }}
         viewport={{ once: false }}
       >
-        <button className="bg-gradient-to-r from-[#F16D3C] to-[#0E546A] px-5 py-2 text-white rounded-full cursor-pointer">
+        <button className="bg-gradient-to-r from-[#F16D3C] to-[#0E546A] px-5 py-2 text-white rounded-full cursor-pointer poppins-thin">
           See More
         </button>
       </motion.div>

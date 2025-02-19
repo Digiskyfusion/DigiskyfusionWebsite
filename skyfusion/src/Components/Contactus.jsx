@@ -93,7 +93,7 @@ function ContactUs() {
           type="submit"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="py-2 px-6 md:px-8 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white md:text-lg font-semibold transition duration-300 hover:opacity-90 cursor-pointer"
+          className="py-2 px-6 md:px-8 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white md:text-lg font-semibold transition duration-300 hover:opacity-90 cursor-pointer roboto-thin"
           variants={containerVariants}
         >
           Send Message
