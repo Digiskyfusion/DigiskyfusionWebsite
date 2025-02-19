@@ -31,7 +31,7 @@ const portfolioItems = [
     title: "HindiKhabra Website",
     description: "Hindikhabra.in is a leading Hindi news website that provides the latest updates and information across various categories, including national news, Punjab, Haryana, lifestyle, business, sports, health, entertainment, and unique stories. ",
     image: hindikhabar,
-    link: "#",
+    link: "https://hindikhabra.in/",
   },
   {
     title: "Astrologer",
