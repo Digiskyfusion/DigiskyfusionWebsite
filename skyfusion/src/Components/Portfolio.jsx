@@ -12,7 +12,7 @@ function Portfolio() {
     >
       {/* Title */}
       <motion.h1 
-        className="text-3xl font-medium text-start mb-6 Roboto-thin"
+        className="text-5xl font-extrabold mt-3 text-center Roboto-thin"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
@@ -23,7 +23,7 @@ function Portfolio() {
 
       {/* Description */}
       <motion.p 
-        className="text-start mb-12 md:w-[28%] font-normal text-3xl poppins-thin"
+        className="text-xl font-light md:w-3/5 mt-3 text-center mx-auto  leading-relaxed poppins-thin"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
@@ -32,10 +32,8 @@ function Portfolio() {
         Explore our success stories and discover how we’ve helped businesses achieve their digital goals.
       </motion.p>
 
-      {/* Additional Paragraph */}
-
       {/* Portfolio Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
         <div>
           <PortfolioItem title="Digital Strategies" progress={94} />
           <PortfolioItem title="SEO Dominance" progress={98} />

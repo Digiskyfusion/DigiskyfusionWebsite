@@ -28,7 +28,7 @@ export default function RotatedSlider() {
           style={{ backgroundImage: `url(${digi})` }}
         >
           {/* Dark Overlay for better text visibility */}
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+          <div className="absolute inset-0 bg-black opacity-70"></div>
 
           <motion.div
             className="relative z-10 p-6 text-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-5 group-hover:translate-y-0"

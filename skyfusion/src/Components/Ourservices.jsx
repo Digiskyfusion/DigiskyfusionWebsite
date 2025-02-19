@@ -38,8 +38,8 @@ function OurServices() {
         initial="hidden"
         animate={textControls}
         variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+          hidden: { opacity: 0, y: 50 },
+          visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
         }}
         className='md:w-1/2 flex flex-col items-center md:items-start md:text-left'
       >
@@ -51,10 +51,10 @@ function OurServices() {
         </p>
 
         {/* Accordion Section */}
-                <div className='mt-4 md:mt-8 w-full Roboto-thin'>
+        <div className='mt-4 md:mt-8 w-full Roboto-thin'>
           {[
             { title: 'Branding & Identity', desc: 'Because your brand deserves to be unforgettable!' },
-            { title: 'Website Development', desc: 'We build websites that don’t just sit there; they talk,engage, and convert!' },
+            { title: 'Website Development', desc: 'We build websites that don’t just sit there; they talk, engage, and convert!' },
             { title: 'Social Media Marketing', desc: 'Likes, shares, and viral trends? We make them happen.' },
             { title: 'SEO & Content Strategy', desc: 'Because a business without Google rankings is like pizza without cheese (heartbreaking, right?).' },
             { title: 'Graphic & Video Creations', desc: '– Let’s make your brand visually stunning! We don’t just "work"—we create stories, connections, and success for our clients.' },
@@ -79,7 +79,6 @@ function OurServices() {
           ))}
         </div>
 
-
         {/* CTA Button */}
         <motion.button
           whileHover={{ scale: 1.05 }}
@@ -96,8 +95,8 @@ function OurServices() {
         initial="hidden"
         animate={imageControls}
         variants={{
-          hidden: { opacity: 0, x: 50 },
-          visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+          hidden: { opacity: 0, y: 50 },
+          visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
         }}
         className='md:w-1/2 p-2'
       >
