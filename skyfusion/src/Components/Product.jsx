@@ -85,9 +85,7 @@ function Product() {
         transition={{ duration: 0.5 }}
         viewport={{ once: false }}
       >
-        <button className="bg-gradient-to-r from-[#F16D3C] to-[#0E546A] px-5 py-2 text-white rounded-full cursor-pointer poppins-thin">
-          See More
-        </button>
+       
       </motion.div>
     </motion.div>
   );
