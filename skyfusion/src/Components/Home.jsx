@@ -6,6 +6,7 @@ import ellips from './../assets/Images/Elips.png';
 import frontLogo from './../assets/Images/femaleLogo.png';
 import sound from './../assets/Images/sound.jpg';
 import circle from './../assets/Images/Circle1.png';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -27,7 +28,7 @@ function Home() {
               className='relative text-center md:text-start md:w-[60%] space-y-5 md:px-10 flex flex-col items-center md:items-start pt-6'
             >
               {/* Rotating Circle */}
-              <motion.img
+              <motion.img 
                 src={circle}
                 initial={{ opacity: 0, rotate: -180 }}
                 whileInView={{ opacity: 1, rotate: 0 }}
@@ -37,11 +38,11 @@ function Home() {
                 alt="Rotating Circle"
               />
               
-              <h1 className='text-3xl md:text-6xl  leading-tight Roboto-thin'>
+              <h1 className='text-3xl md:text-6xl  leading-tight mukta-extrabold'>
               DigiSkyFusion – Where Brands Don’t Just Exist, They Dominate!
 
               </h1>
-              <p className='text-lg md:text-2xl poppins-thin'>
+              <p className='text-lg md:text-2xl  mukta-extrabold-thin'>
               Imagine a world where your brand doesn’t just sit in the crowd—it owns the stage. That’s what we do at DigiSkyFusion. We blend creativity, strategy, and technology to turn brands into digital powerhouses.
 
               </p>
@@ -51,9 +52,10 @@ function Home() {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
+             <Link to="/ContactUs">
                 <button className="py-2 px-5 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white cursor-pointer poppins-thin">
                   Get Started
-                </button>
+                </button> </Link>
               </motion.div>
             </motion.div>
 

@@ -7,6 +7,7 @@ import third from './../assets/Images/third.png';
 import fourth from './../assets/Images/fourth.png';
 import fifth from './../assets/Images/fifth.png';
 import femalelogo1 from './../assets/Images/femalelogo1.png';
+import { Link } from 'react-router-dom';
 // import WholeCircle from './WholeCircle';
 
 
@@ -27,18 +28,21 @@ function Homepage() {
               className='absolute left-[-30px] top-7 h-10 w-10 md:w-28 md:h-36 md:left-[-70px] rotate-y-360'
               alt='Rotating Circle'
             />
-            <h1 className='text-3xl md:text-6xl font-poppins leading-tight Roboto-thin'>
+            <h1 className='text-3xl md:text-6xl font-poppins leading-tight mukta-extrabold'>
            
             DigiSkyFusion – Where Brands Don’t Just Exist, They Dominate!
             </h1>
-            <p className='text-lg md:text-2xl poppins-thin'>
+            <p className='text-lg md:text-2xl mukta-extrabold-thin'>
             Imagine a world where your brand doesn’t just sit in the crowd—it owns the stage. That’s what we do at DigiSkyFusion. We blend creativity, strategy, and technology to turn brands into digital powerhouses.
             </p>
-            <div className='hidden md:flex cursor-pointer'>
-              <button className='py-2 px-5 bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white poppins-thin'>
+
+            <Link to="/contactUs">
+            <div className='hidden md:flex'>
+              <button className='py-2 px-5 cursor-pointer bg-gradient-to-r from-[#0E546A] to-[#F16D3C] rounded-full text-white poppins-thin'>
                 Get Started
               </button>
             </div>
+            </Link>
           </div>
 
           {/* {/ Image Section /} */}

@@ -6,7 +6,7 @@ import Portfolio from '../Components/Portfolio'
 import ContactUs from '../Components/Contactus'
 
 import Chooseus from '../Components/Chooseus'
-import Experience from '../Components/Experience'
+// import Experience from '../Components/Experience'
 
 
 function HomePage() {

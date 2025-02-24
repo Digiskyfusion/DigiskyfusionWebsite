@@ -46,7 +46,11 @@ function Footer() {
         {/* {/ Third Section - Contact /} */}
         <div className="flex flex-col items-start">
           <h3 className="text-lg font-semibold mb-3 md:text-lg">Contact Us</h3>
-          <label htmlFor="email" className="block text-sm md:text-lg">
+          <div className=" text-sm md:text-lg">
+              <p>Email: <a href="#" className="text-gray-400 hover:text-orange-400">digiskyfusion@gmail.com</a></p>
+              <p>Phone: <a href="#" className="text-gray-400 hover:text-orange-400">+91 80879 16794</a></p>
+            </div>
+          <label htmlFor="email" className="block text-sm md:text-lg mt-2">
             Enter Your Email <span className="text-red-500">*</span>
           </label>
           <input
@@ -57,10 +61,10 @@ function Footer() {
           <button className="cursor-pointer  bg-gradient-to-r from-[#0E546A] to-[#F16D3C] mt-1 md:px-10 px-5 py-1 rounded-full text-sm font-semibold md:text-lg">
             Send
           </button>
-          {/* <button className="cursor-pointer block md:hidden bg-gradient-to-r from-[#8E24AA] to-[#FF69B4] mt-3 px-8 py-2 rounded-full text-sm font-semibold">
-            Send
-          </button> */}
+         
         </div>
+
+
       </div>
       <div className='flex justify-center mt-2 md:mt-0'>
         <hr className='mt-2 md:mt-20 w-full md:w-[91%] text-white border-2' />

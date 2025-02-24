@@ -83,15 +83,15 @@ function Chooseus() {
             >
               {item.img && (
                 <div
-                  className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-105 group-hover:scale-100"
+                  className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-15 transition-opacity duration-300 transform scale-105 group-hover:scale-100"
                   style={{ backgroundImage: `url(${item.img})` }}
                 />
               )}
 
-              <div className="relative z-10">
-                <h3 className="text-3xl font-bold text-white text-end">{item.id}</h3>
-                <h4 className="text-xl font-semibold mt-2 text-white">{item.title}</h4>
-                <p className="text-white mt-2">{item.desc}</p>
+              <div className="relative z-10 text-white font-semibold hover:text-black hover:font-bold hover:text-[20px]">
+                <h3 className="text-3xl  text-end">{item.id}</h3>
+                <h4 className="text-xl  mt-2 ">{item.title}</h4>
+                <p className=" mt-2">{item.desc}</p>
               </div>
             </motion.div>
           ))}

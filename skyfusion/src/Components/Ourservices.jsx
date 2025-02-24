@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
 import leftpic from './../assets/Images/leftpi.png';
+import { Link } from 'react-router-dom';
 
 function OurServices() {
   // Controls for text section
@@ -80,6 +81,7 @@ function OurServices() {
         </div>
 
         {/* CTA Button */}
+        <Link to="/services">
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -87,7 +89,9 @@ function OurServices() {
         >
           See More
         </motion.button>
+        </Link>
       </motion.div>
+    
 
       {/* Right Image Section */}
       <motion.div
