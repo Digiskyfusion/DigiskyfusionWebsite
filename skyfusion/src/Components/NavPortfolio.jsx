@@ -21,7 +21,7 @@ function NavPortfolio() {
             <div className="relative text-center md:text-start md:w-[60%] space-y-5 md:px-10 flex flex-col items-center md:items-start">
               <img
                 src={circle}
-                className="absolute left-[-15px] top-5 h-8 w-8 sm:h-12 sm:w-12 md:w-28 md:h-36 md:left-[-50px] rotate-360 rotate-y-360"
+                className="absolute left-[-15px] top-5 h-8 w-8 sm:h-12 sm:w-12 md:w-28 md:h-36 md:left-[-50px] rotate-360 rotate-y-360 "
                 alt="Rotating Circle"
               />
               <h1 className="text-3xl sm:text-4xl md:text-6xl font-poppins leading-tight mukta-extrabold-b">

@@ -12,6 +12,7 @@ import HomePage from "./Pages/HomePage";
 import PortfolioPage from "./Pages/PortfolioPage";
 import ScrollToTop from "./Components/ScrollToTop"
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ function App() {
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/ContactUs" element={<Contactuspage />} />
       </Routes>
+      
       <Footer />
     </BrowserRouter>
   );
