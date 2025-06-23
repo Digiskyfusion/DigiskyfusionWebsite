@@ -4,7 +4,7 @@ import './../App.css';
 
 import back from './../assets/Images/background.png.png';
 import logo from './../assets/Images/logosky.png';
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -35,9 +35,9 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center px-5 inter">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold">
+        <Link to="/" className="text-2xl font-bold">
           <img className="h-10" src={logo} alt="Logo" />
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex md:space-x-6 inter">
