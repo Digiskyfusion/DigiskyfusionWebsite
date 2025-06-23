@@ -3,18 +3,29 @@ import { motion } from "framer-motion";
 import reddybooking from './../assets/Images/reddybooking.png';
 import astrologer from './../assets/Images/astrologer.png';
 import vivahsankar from './../assets/Images/vivahsankar.png';
-import hindikhabar from './../assets/Images/hindikhabar.png';
-import dentalcare from './../assets/Images/dental care.png';
+// import hindikhabar from './../assets/Images/hindikhabar.png';
+// import dentalcare from './../assets/Images/dental care.png';
 import astrologer2 from './../assets/Images/astrologer2.png';
+import shaadisanskar from '../assets/Images/Screenshot 2025-06-23 162437.png';
+import astrologernew from '../assets/Images/Screenshot 2025-06-23 162522.png';
+import tanish from '../assets/Images/Screenshot 2025-06-23 162538.png';
+import digisky from '../assets/Images/Screenshot 2025-06-23 163803.png';
 
 const portfolioItems = [
-  {
-    title: "Dental Care Website",
-    description: "Angela Tirath is a dental professional committed to providing exceptional oral health care services. Her practice offers a comprehensive range of treatments, including pediatric dentistry, restorative care, orthodontics, and gum health services. ",
-    image: dentalcare ,
-    link: "https://angelatirath.com/",
-  },
- 
+ {
+  title: "ShaadiSankar Website",
+  description: "ShaadiSankar is a matrimonial platform dedicated to helping individuals find their ideal life partners based on shared values, traditions, and preferences. The website offers an intuitive and culturally rich experience with features such as profile matching, interest-based search, and secure communication to ensure a trusted journey toward marriage.",
+  image: shaadisanskar,
+  link: "https://www.shaadisanskar.com/",
+}
+,
+ {
+  title: "DIGISKY.ai – Freelancing & Online Jobs Platform",
+  description:
+    "DIGISKY.ai empowers India's gig economy with a modern platform for freelancers. From creating profiles and bidding on projects to managing work seamlessly — it bridges clients and professionals with a clean, efficient user interface.",
+    image:digisky,
+  link: "https://digisky.ai/",
+},
   {
     title: "ReddyBookings",
     description: "At Reddy Booking, we make reservations seamless and hassle-free. Whether you're looking for hotels, flights, holiday packages, or event tickets, we’ve got you covered.",
@@ -27,12 +38,13 @@ const portfolioItems = [
     image: vivahsankar,
     link: "https://www.vivahsanskarnagpur.com/",
   },
-  {
-    title: "HindiKhabra Website",
-    description: "Hindikhabra.in is a leading Hindi news website that provides the latest updates and information across various categories, including national news, Punjab, Haryana, lifestyle, business, sports, health, entertainment, and unique stories. ",
-    image: hindikhabar,
-    link: "https://hindikhabra.in/",
-  },
+ {
+  title: "AstroAghoriBaba Website",
+  description: "AstroAghoriBaba.com is a spiritual and astrological platform offering personalized guidance through Vedic astrology, tantra rituals, and spiritual solutions. The website provides services such as horoscope reading, love problem solutions, career guidance, marriage compatibility, and powerful remedies for life's challenges.",
+  image: astrologernew,
+  link: "https://astroaghoribaba.com/",
+}
+,
   {
     title: "Astrologer",
     description: "At Pt Kamlesh Sharma, we help you unlock the mysteries of the cosmos through personalized astrology readings and insights. Whether you're looking for guidance in love, career, health, or spiritual growth, our expert astrologers provide accurate and in-depth consultations tailored to your unique birth chart.",
@@ -45,6 +57,13 @@ const portfolioItems = [
     image: astrologer2,
     link: "https://astrologeromnath.com/",
   },
+{
+  title: "Tanishenterpriss Website",
+  description: "Tanishenterpriss.com is a professional business platform offering high-quality products and services across various sectors. Known for its commitment to excellence, reliability, and customer satisfaction, the company provides tailored solutions designed to meet diverse client needs.",
+  image: tanish,
+  link: "https://tanishenterpriss.com/",
+}
+
 ];
 
 function PortfolioSection() {
